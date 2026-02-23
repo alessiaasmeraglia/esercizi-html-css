@@ -1,43 +1,42 @@
-# Pagina di giornale
+# Toboolist
 
 ## Descrizione esercizio
 
-Progetto front-end base realizzato come esercitazione in **HTML** e **CSS**.  
-La pagina riproduce il layout di una **pagina di giornale**, con intestazione, contenuti testuali, immagini, link e tabella, seguendo una traccia mostrata a lezione.
+Progetto front-end realizzato come esercitazione in **HTML** e **CSS** con l’obiettivo di riprodurre il layout di una **Todo List** (Toboolist) seguendo una traccia grafica.
 
-L’obiettivo è costruire il layout passo dopo passo, partendo dalla struttura HTML e applicando gradualmente lo stile CSS ai diversi blocchi della pagina.
+L’esercizio è pensato per allenare la costruzione di un’interfaccia ordinata e leggibile, suddividendo la pagina in sezioni (ad esempio header, area pulsanti e lista attività) e applicando stili coerenti a elementi ripetuti come badge, bottoni e icone.
 
 ## Obiettivi didattici
 
 Con questo esercizio si allenano le seguenti competenze:
 
-- strutturare una pagina web con HTML
-- collegare correttamente un file CSS esterno
-- organizzare file e cartelle di un progetto (`img/`, `css/`)
-- applicare stili base a testi, sfondi, link e tabelle
-- gestire spaziature con `margin` e `padding`
-- riprodurre un layout seguendo una traccia/video
+- strutturare una pagina web in macroaree con HTML
+- organizzare il CSS in modo pulito e riutilizzabile
+- applicare stili coerenti a elementi simili (bottoni, etichette, liste)
+- usare colori, font e spaziature per migliorare la leggibilità
+- gestire icone e simboli tramite HTML Entities
+- riprodurre un layout partendo da una traccia visiva
 
 ## Competenze allenate
 
-- Struttura base di un file `index.html`
-- Uso dei principali tag HTML per testo, immagini e tabelle
-- Collegamento del file `css/style.css` tramite tag `<link>`
-- Gestione dei colori e della formattazione grafica
-- Inserimento di immagini locali da cartella `img`
-- Uso di HTML Entities (`&check;` e `&cross;`)
+- Uso dei principali tag HTML per sezioni, liste e contenuti testuali
+- Creazione di componenti visivi riutilizzabili (es. badge/categorie)
+- Gestione di `margin`, `padding`, bordi e allineamenti
+- Applicazione di palette colori e font comuni a tutta la pagina
+- Uso delle HTML Entities (`&check;`, `&cross;`, `&blacktriangledown;`)
+- Approccio progressivo alla costruzione del layout (una sezione alla volta)
 
 ## Struttura del progetto
 
 - `index.html` → pagina principale
-- `img/` → immagini usate nell’esercizio
 - `css/style.css` → foglio di stile principale
+- `img/` → eventuali immagini o icone aggiuntive
 
 ## Livello di difficoltà
 
 **Base / Intermedio** 🟡  
-Adatto a chi sta iniziando con HTML e CSS e vuole esercitarsi sulla costruzione di layout completi.
+Adatto a chi sta imparando HTML e CSS e vuole esercitarsi nella costruzione di layout UI semplici ma completi.
 
 ## Note
 
-L’esercizio può essere completato in modo progressivo: se alcuni dettagli di posizionamento risultano difficili (es. logo nell’header o testo sulle immagini), è possibile completarli in un secondo momento dopo aver impostato la struttura principale.
+L’esercizio non richiede una riproduzione perfetta al primo tentativo: è consigliato procedere per step, completando prima la struttura generale e rifinendo i dettagli grafici in un secondo momento.
