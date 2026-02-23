@@ -77,8 +77,6 @@ Il focus è sulla costruzione della base del layout (macroaree e blocchi), senza
 
 ## Struttura del repository
 
-Esempio di organizzazione del portfolio:
-
 ```text
 esercizi-html-css/
 │
