@@ -1,40 +1,111 @@
-# Viaggio a Londra
+# Portfolio Esercizi HTML & CSS
 
-## Descrizione esercizio
+Raccolta di esercizi svolti durante il percorso di studio di **HTML** e **CSS**, con l’obiettivo di sviluppare competenze nella creazione di pagine web statiche, organizzazione dei file di progetto e costruzione di layout a partire da tracce grafiche.
 
-Progetto front-end base realizzato come esercitazione in **HTML** (ed eventualmente **CSS**, se richiesto).  
-La pagina riproduce un layout ispirato a una traccia grafica sul tema **"Viaggio a Londra"**, con contenuti testuali e immagini organizzati in sezioni.
+## Obiettivo del portfolio
 
-L’obiettivo non è ottenere una copia perfetta del modello, ma sviluppare una corretta struttura della pagina e prendere dimestichezza con i principali elementi HTML.
+Questo repository raccoglie esercitazioni pratiche realizzate per allenare:
 
-## Obiettivi didattici
+- struttura di pagine web con HTML
+- styling e impaginazione con CSS
+- organizzazione di file e cartelle di progetto
+- riproduzione di layout da tracce e screenshot
+- scrittura di codice ordinato, leggibile e progressivo
 
-Con questo esercizio si allenano le seguenti competenze:
+Ogni esercizio è stato sviluppato con approccio pratico, concentrandosi prima sulla struttura e poi sulla cura dei dettagli grafici.
 
-- strutturare una pagina web con HTML
-- scegliere i tag semantici più adatti al contenuto
-- inserire immagini con percorsi **relativi** e **assoluti**
-- organizzare file e cartelle di un piccolo progetto web
-- scrivere codice ordinato e ben indentato
+---
 
-## Competenze allenate
+## Esercizi inclusi
 
-- Struttura base di un file `index.html`
-- Uso di titoli, paragrafi e contenitori
-- Gestione delle immagini in una cartella dedicata (`img`)
-- Lettura e interpretazione di una consegna
-- Riproduzione di un layout a partire da un riferimento visivo
+### 1) Viaggio a Londra (`html-london-trip`)
+**Descrizione:**  
+Esercizio introduttivo in HTML dedicato alla creazione di una pagina statica sul tema **“Viaggio a Londra”**.  
+L’attività è focalizzata sulla struttura del documento HTML, sull’uso corretto dei tag principali e sull’inserimento di immagini tramite percorsi locali e assoluti.
 
-## Struttura del progetto
+**Competenze allenate:**
+- struttura base di una pagina HTML
+- uso dei tag principali (titoli, paragrafi, immagini, sezioni)
+- gestione di cartelle e immagini (`img/`)
+- organizzazione e indentazione del codice
 
-- `index.html` → pagina principale
-- `img/` → immagini utilizzate nell’esercizio
+---
 
-## Livello di difficoltà
+### 2) Pagina di giornale (`booleaner`)
+**Descrizione:**  
+Esercizio in HTML e CSS per la realizzazione del layout di una **pagina di giornale**, con header, contenuti testuali, immagini, link e tabella.  
+Il progetto aiuta a costruire un layout completo seguendo una traccia mostrata a lezione.
 
-**Base** 🟢  
-Adatto alle prime esercitazioni di HTML.
+**Competenze allenate:**
+- collegamento di un file CSS esterno (`<link>`)
+- struttura HTML con contenuti complessi
+- styling di testi, link e tabelle
+- gestione di colori, sfondi e spaziature (`margin` / `padding`)
+- organizzazione del progetto con cartelle `img/` e `css/`
 
-## Note
+---
 
-Le prime immagini sono fornite nei materiali dell’esercizio (`assets.zip`), mentre altre possono essere caricate tramite link assoluti, come richiesto dalla consegna.
+### 3) Toboolist (`toboolist`)
+**Descrizione:**  
+Esercizio in HTML e CSS per riprodurre il layout di una **Todo List** (Toboolist), con focus sulla suddivisione in macroaree e sulla creazione di elementi grafici riutilizzabili (bottoni, badge, etichette, icone).
+
+**Competenze allenate:**
+- suddivisione della pagina in sezioni logiche
+- creazione di componenti visivi riutilizzabili
+- gestione di palette colori e font
+- utilizzo di HTML Entities (`&check;`, `&cross;`, `&blacktriangledown;`)
+- cura della leggibilità tramite spaziature e allineamenti
+
+---
+
+### 4) Discord Layout (`discord`)
+**Descrizione:**  
+Esercizio di livello intermedio in HTML e CSS dedicato alla riproduzione della **struttura del layout del sito Discord** a partire da screenshot di riferimento.  
+Il focus è sulla costruzione della base del layout (macroaree e blocchi), senza concentrarsi inizialmente sui contenuti finali.
+
+**Competenze allenate:**
+- analisi di un layout complesso
+- progettazione della struttura HTML per macroaree
+- uso di classi CSS riutilizzabili
+- organizzazione del codice in modo pulito e scalabile
+- sviluppo progressivo: prima struttura, poi dettagli
+
+**Bonus (facoltativo):**
+- replica più fedele della pagina originale con contenuti e risorse grafiche
+
+---
+
+## Struttura del repository
+
+Esempio di organizzazione del portfolio:
+
+```text
+esercizi-html-css/
+│
+├── html-london-trip/
+│   ├── index.html
+│   ├── README.md
+│   └── img/
+│
+├── booleaner/
+│   ├── index.html
+│   ├── README.md
+│   ├── img/
+│   └── css/
+│       └── style.css
+│
+├── toboolist/
+│   ├── index.html
+│   ├── README.md
+│   ├── css/
+│   │   └── style.css
+│   └── img/ (facoltativa)
+│
+├── discord/
+│   ├── index.html
+│   ├── README.md
+│   ├── css/
+│   │   └── style.css
+│   └── assets-bonus/ (bonus)
+│
+└── README.md
