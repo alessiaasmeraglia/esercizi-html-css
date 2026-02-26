@@ -2,7 +2,7 @@
 
 ## Descrizione esercizio
 
-Progetto front-end base realizzato come esercitazione in **HTML** (ed eventualmente **CSS**, se richiesto).  
+Progetto front-end base realizzato come esercitazione in **HTML**.  
 La pagina riproduce un layout ispirato a una traccia grafica sul tema **"Viaggio a Londra"**, con contenuti testuali e immagini organizzati in sezioni.
 
 L’obiettivo non è ottenere una copia perfetta del modello, ma sviluppare una corretta struttura della pagina e prendere dimestichezza con i principali elementi HTML.
